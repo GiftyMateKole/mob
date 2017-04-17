@@ -3,7 +3,7 @@ error_reporting(E_ALL ^ E_DEPRECATED);
 
 session_start();
 	if(!isset($_SESSION['user']['Id'])){
-		header("Location: login.php");
+		header("Location: index.html");
 		exit();
 	}
 
