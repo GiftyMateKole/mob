@@ -104,7 +104,7 @@ body {
 
 <?php
 if(isset($_REQUEST['username'])){
-			$mysqli= new mysqli('localhost','root','','akorno');
+			$mysqli= new mysqli('localhost','gifty.mate-kole','8c34293c7b8b4c0e','db__gifty_mate-kole');
 
 			
 			if($mysqli->connect_errno!=0){
